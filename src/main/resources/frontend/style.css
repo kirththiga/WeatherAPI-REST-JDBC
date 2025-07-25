@@ -1,0 +1,34 @@
+body {
+  background-image: url("cloud.jpeg");
+}
+
+.container, .mb-3, .form-label, .form-check-label, .form-check {
+  background-color: lightgrey;
+}
+
+#currentWeather {
+  padding: 15px;
+}
+
+.card {
+  width: 180px;
+}
+
+.list-group-item:hover {
+  background-color: #a2badd; 
+  font-weight: 600;
+}
+
+#forecastBtns a:hover {
+  font-weight: bold;
+}
+
+#windy {
+  width: 100%;
+  height: 500px;
+  display: none;
+}
+
+.form-control {
+  width: 500px;
+}
